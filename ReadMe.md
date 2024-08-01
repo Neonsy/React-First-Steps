@@ -36,3 +36,9 @@ However, the following represents my full learning goal, that I'll pursue after 
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [TailwindCSS](https://github.com/tailwindlabs/tailwindcss)
 - [ShadcnUI](https://github.com/shadcn-ui/ui)
+
+## Sections
+
+The following represents the sections / steps, that I've taken through this project:
+
+- [How React Works](/notes/01-how-react-works.md)
