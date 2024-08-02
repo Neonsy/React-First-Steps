@@ -46,3 +46,4 @@ The following represents the sections / steps, that I've taken through this proj
 - [What Is JSX](/notes/03-what-is-jsx.md)
 - [Reusability of Components](/notes/04-reusability-of-components.md)
 - [What Are Props](/notes/05-what-are-props.md)
+- [Destructuring Props](/notes/06-destructuring-props.md)
