@@ -47,3 +47,4 @@ The following represents the sections / steps, that I've taken through this proj
 - [Reusability of Components](/notes/04-reusability-of-components.md)
 - [What Are Props](/notes/05-what-are-props.md)
 - [Destructuring Props](/notes/06-destructuring-props.md)
+- [Immutability Of Props](/notes/07-immutability-of-props.md)
