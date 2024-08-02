@@ -43,3 +43,4 @@ The following represents the sections / steps, that I've taken through this proj
 
 - [How React Works](/notes/01-how-react-works.md)
 - [How Components Work](/notes/02-how-components-work.md)
+- [What Is JSX](/notes/03-what-is-jsx.md)
