@@ -48,3 +48,4 @@ The following represents the sections / steps, that I've taken through this proj
 - [What Are Props](/notes/05-what-are-props.md)
 - [Destructuring Props](/notes/06-destructuring-props.md)
 - [Immutability Of Props](/notes/07-immutability-of-props.md)
+- [Passing Arrays And Objects With Props](/notes/08-passing-arrays-and-objects-with-props.md)
