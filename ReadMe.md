@@ -45,3 +45,4 @@ The following represents the sections / steps, that I've taken through this proj
 - [How Components Work](/notes/02-how-components-work.md)
 - [What Is JSX](/notes/03-what-is-jsx.md)
 - [Reusability of Components](/notes/04-reusability-of-components.md)
+- [What Are Props](/notes/05-what-are-props.md)
