@@ -50,3 +50,4 @@ The following represents the sections / steps, that I've taken through this proj
 - [Immutability Of Props](/notes/07-immutability-of-props.md)
 - [Passing Arrays And Objects With Props](/notes/08-passing-arrays-and-objects-with-props.md)
 - [Displaying Arrays Or Lists](/notes/09-displaying-arrays-or-lists.md)
+- [Array Of Objects](/notes/10-array-of-objects.md)
