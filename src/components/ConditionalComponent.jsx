@@ -1,17 +1,12 @@
 export default function ConditionalComponent() {
+  let message;
   const display = true;
 
   if (display) {
-    return (
-      <>
-        <h2>This is a conditional component</h2>
-      </>
-    );
+    message = <h1>Value: true</h1>;
   } else {
-    return (
-      <>
-        <h2>Some text</h2>
-      </>
-    );
+    message = <h1>Value: false</h1>;
   }
+
+  return message;
 }

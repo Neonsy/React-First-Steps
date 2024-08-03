@@ -53,3 +53,4 @@ The following represents the sections / steps, that I've taken through this proj
 - [Array Of Objects](/notes/10-array-of-objects.md)
 - [Components In Loops](/notes/11-components-in-loops.md)
 - [Conditionally Rendering](/notes/12-conditionally-rendering.md)
+- [Conditionals Using Element Variables](/notes/13-conditionals-using-element-variables.md)
