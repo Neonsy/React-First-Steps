@@ -52,3 +52,4 @@ The following represents the sections / steps, that I've taken through this proj
 - [Displaying Arrays Or Lists](/notes/09-displaying-arrays-or-lists.md)
 - [Array Of Objects](/notes/10-array-of-objects.md)
 - [Components In Loops](/notes/11-components-in-loops.md)
+- [Conditionally Rendering](/notes/12-conditionally-rendering.md)
