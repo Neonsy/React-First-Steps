@@ -54,3 +54,4 @@ The following represents the sections / steps, that I've taken through this proj
 - [Components In Loops](/notes/11-components-in-loops.md)
 - [Conditionally Rendering](/notes/12-conditionally-rendering.md)
 - [Conditionals Using Element Variables](/notes/13-conditionals-using-element-variables.md)
+- [Event Handling](/notes/14-event-handling.md)

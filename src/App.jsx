@@ -1,9 +1,9 @@
-import ConditionalComponent from './components/ConditionalComponent';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className='App'>
-      <ConditionalComponent />
+      <Message />
     </div>
   );
 }
