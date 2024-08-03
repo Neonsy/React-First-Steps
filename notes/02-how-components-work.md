@@ -1,4 +1,4 @@
-# 2. Components are the building blocks of React
+# Components are the building blocks of React
 
 Components are the building blocks of React, and they're the most important part of the framework.
 React is based component based architecture, and it's one of the reason why it's so popular.

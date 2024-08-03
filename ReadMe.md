@@ -49,3 +49,4 @@ The following represents the sections / steps, that I've taken through this proj
 - [Destructuring Props](/notes/06-destructuring-props.md)
 - [Immutability Of Props](/notes/07-immutability-of-props.md)
 - [Passing Arrays And Objects With Props](/notes/08-passing-arrays-and-objects-with-props.md)
+- [Displaying Arrays Or Lists](/notes/09-displaying-arrays-or-lists.md)

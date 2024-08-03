@@ -1,4 +1,4 @@
-# 1. React Projects are SPA (Single Page Applications)
+# React Projects are SPA (Single Page Applications)
 
 React is a single page application framework, because you have only [one page](/index.html) to render, and that page is the application.
 
@@ -19,7 +19,12 @@ Before going any further, here are browser extensions that'll help with debuggin
 
 The HTML has two important parts:
 
-![index.html focusing on the div and the script tag](https://github.com/user-attachments/assets/36d4c1d9-98f1-4c10-a9dc-adb8b3fa0ce5)
+```html
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+```
 
 The div tag with the id of `root` is where the application will be rendered.
 This is using the classic way of manipulating the DOM with JavaScript.
@@ -53,4 +58,3 @@ The react project features a single html file, that has a div tag with the id of
 The main.jsx file is the entry point, and it's where the application is rendered.
 
 It features an App component, which is the main component of the application.
-
