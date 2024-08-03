@@ -1,16 +1,14 @@
-import { useState } from 'react';
+# Multiple States
 
-export default function Counter() {
+Working with multiple states is a common task in React.
+In the following example, we'll have two states, where one can modify the other.
+
+## Code Example
+
+```jsx
+function Counter() {
   const [count, setCount] = useState(0);
   const [countSteps, setCountSteps] = useState(1);
-
-  function increment() {
-    setCount(count + countSteps);
-  }
-
-  function decrement() {
-    setCount(count - countSteps);
-  }
 
   function incrementSteps() {
     setCountSteps(countSteps + 1);
@@ -39,3 +37,4 @@ export default function Counter() {
     </>
   );
 }
+```
