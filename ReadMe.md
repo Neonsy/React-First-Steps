@@ -55,3 +55,4 @@ The following represents the sections / steps, that I've taken through this proj
 - [Conditionally Rendering](/notes/12-conditionally-rendering.md)
 - [Conditionals Using Element Variables](/notes/13-conditionals-using-element-variables.md)
 - [Event Handling](/notes/14-event-handling.md)
+- [Introduction To States](/notes/15-introduction-to-states.md)
