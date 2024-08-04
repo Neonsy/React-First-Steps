@@ -1,7 +1,10 @@
 .item {
+    display: flex;
+    justify-content: space-between;
+
     padding: 21px;
 
-    font-size: 1.5em;
+    font-size: 1.8rem;
     text-transform: capitalize;
 
     box-shadow: 0 3px 9px 0 hsla(250, 75%, 55%, 0.18);
@@ -10,4 +13,38 @@
 .item:hover {
     background-color: hsla(250, 75%, 5%, 0.5);
     transform: translateY(-3px) scaleY(1.02);
+}
+
+.text {
+    flex-grow: 1;
+    align-self: center;
+}
+
+.deleteButton {
+    flex-grow: 0;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: whitesmoke;
+
+    border-radius: 18px;
+    padding: 3px 18px;
+
+    border: none;
+    outline: none;
+
+    background-color: hsla(250, 75%, 36%, 0.3);
+}
+
+.deleteButton:hover {
+    background-color: hsla(250, 75%, 36%, 0.75);
+}
+
+.deleteButton:focus {
+    outline: 1.5px hsla(250, 75%, 75%, 0.3) solid;
+
+    background-color: hsla(250, 75%, 36%, 0.5);
+}
+
+.deleteButton:active {
+    transform: translateY(3px) scaleY(0.9);
 }

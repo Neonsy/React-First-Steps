@@ -16,4 +16,6 @@ body {
     display: flex;
     flex-direction: column;
     padding-bottom: 36px;
+
+    user-select: none;
 }
