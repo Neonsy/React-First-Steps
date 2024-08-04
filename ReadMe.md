@@ -59,3 +59,4 @@ The following represents the sections / steps, that I've taken through this proj
 - [State In React Code](/notes/16-state-in-react-code.md)
 - [Multiple States](/notes/17-multiple-states.md)
 - [Input Fields In React](/notes/18-input-fields-in-react.md)
+- [Multiple Inputs](/notes/19-multiple-inputs.md)
