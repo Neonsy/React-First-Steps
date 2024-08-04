@@ -1,0 +1,13 @@
+.item {
+    padding: 21px;
+
+    font-size: 1.5em;
+    text-transform: capitalize;
+
+    box-shadow: 0 3px 9px 0 hsla(250, 75%, 55%, 0.18);
+}
+
+.item:hover {
+    background-color: hsla(250, 75%, 5%, 0.5);
+    transform: translateY(-3px) scaleY(1.02);
+}

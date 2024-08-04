@@ -13,7 +13,13 @@ export default function Form({ todos, setTodos }) {
     return (
         <>
             <form onSubmit={handleSubmit} className={styles.form}>
-                <input type='text' value={todo} onChange={(e) => setTodo(e.target.value)} className={styles.input} />
+                <input
+                    type='text'
+                    value={todo}
+                    onChange={(e) => setTodo(e.target.value)}
+                    placeholder='Add Todo Here'
+                    className={styles.input}
+                />
                 <button type='submit' className={styles.button}>
                     Add
                 </button>

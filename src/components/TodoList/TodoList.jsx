@@ -1,9 +1,10 @@
-import TodoItem from './TodoItem';
+import TodoItem from './TodoItem/TodoItem';
+import styles from './TodoList.module.css';
 
 export default function TodoList({ todos }) {
     return (
         <>
-            <ul>
+            <ul className={styles.list}>
                 {todos.map((todo) => (
                     <TodoItem key={todo} todo={todo} />
                 ))}
