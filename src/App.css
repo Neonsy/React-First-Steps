@@ -11,3 +11,8 @@ body {
     color: whitesmoke;
     height: 100dvh;
 }
+
+.App {
+    display: flex;
+    flex-direction: column;
+}
