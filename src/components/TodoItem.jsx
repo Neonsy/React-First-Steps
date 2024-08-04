@@ -1,7 +1,7 @@
 export default function TodoItem({ todo }) {
-  return (
-    <>
-      <li>{todo}</li>
-    </>
-  );
+    return (
+        <>
+            <li>{todo}</li>
+        </>
+    );
 }
