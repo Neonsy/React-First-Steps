@@ -61,3 +61,10 @@ The following represents the sections / steps, that I've taken through this proj
 - [Input Fields In React](/notes/18-input-fields-in-react.md)
 - [Multiple Inputs](/notes/19-multiple-inputs.md)
 - [Form Submission](/notes/20-form-submission.md)
+
+### Todo Project
+
+Now hold on for a second before you judge me for doing a todo project.
+I'm aware that that's a classic trope, but I think for learning important concepts for the first time, it's a good idea `to do` a `todo` project. (**Pun intended**)
+
+If I decide to do another project, seeing that `main` is the latest version of the repository, you can find the code for the todo project in the [projects branch](../../tree/Project-01-Todo-App/).
