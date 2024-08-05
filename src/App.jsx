@@ -1,14 +1,9 @@
-import './App.css';
-import Header from './components/Header/Header';
-import Todo from './components/Todo/Todo';
+import ContextExampleParent from './components/Context/ContextExampleParent';
 
-function App() {
+export default function App() {
     return (
         <div className='App'>
-            <Header />
-            <Todo />
+            <ContextExampleParent />
         </div>
     );
 }
-
-export default App;
