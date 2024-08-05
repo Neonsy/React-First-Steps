@@ -62,9 +62,28 @@ The following represents the sections / steps, that I've taken through this proj
 -   [Multiple Inputs](/notes/19-multiple-inputs.md)
 -   [Form Submission](/notes/20-form-submission.md)
 
-### Todo Project
+
+### [Todo Project](/notes/project-01-todo-app.md)
 
 Now hold on for a second before you judge me for doing a todo project.
 I'm aware that that's a classic trope, but I think for learning important concepts for the first time, it's a good idea `to do` a `todo` project. (**Pun intended**)
 
 If I decide to do another project (in this repository), seeing that `main` is the latest version of the repository, you can find the code for the todo project in the [projects branch](../../tree/Project-01-Todo-App/).
+
+#### Images
+
+##### Start
+
+![Start](https://github.com/user-attachments/assets/f724e1aa-57d1-4d85-bb8a-294057ef82d1)
+
+##### Adding Items
+
+![Adding Items](https://github.com/user-attachments/assets/d6329f8f-51da-4c0b-9a34-18e2108d53f5)
+
+##### Marking Items
+
+![Marking Items](https://github.com/user-attachments/assets/12f9022e-2a49-45cf-b4c2-ec3cc72fe822)
+
+##### Scrollbar
+
+![Scrollbar](https://github.com/user-attachments/assets/1c511777-056e-4a6c-86b5-7d0774234fc7)
