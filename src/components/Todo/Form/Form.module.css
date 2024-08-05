@@ -55,3 +55,11 @@
 .button:focus {
     outline: 1.5px hsla(250, 75%, 75%, 0.3) solid;
 }
+
+.button:active {
+    transform: translateY(3px) scaleY(0.99);
+}
+
+.button:hover {
+    background-color: hsl(250, 75%, 9%);
+}

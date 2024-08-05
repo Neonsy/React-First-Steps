@@ -1,0 +1,63 @@
+.footer {
+    align-self: center;
+
+    width: 100%;
+    max-width: 900px;
+
+    padding: 21px;
+
+    background-color: hsla(250, 75%, 9%, 0.5);
+    box-shadow: 0 18px 55px 3px hsla(250, 75%, 55%, 0.18);
+}
+
+.info,
+.actions {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 21px;
+}
+
+.clear,
+.delete {
+    border: none;
+    outline: none;
+
+    font-size: 1.5em;
+    background-color: hsl(250, 75%, 5%);
+    color: whitesmoke;
+
+    padding: 0.5em;
+    margin-left: 1.5px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 3px 9px 0 hsla(250, 75%, 55%, 0.27);
+}
+
+.clear:focus,
+.delete:focus {
+    outline: 1.5px hsla(250, 75%, 75%, 0.3) solid;
+}
+
+.clear:hover,
+.delete:hover {
+    background-color: hsl(250, 75%, 9%);
+}
+
+.clear:active,
+.delete:active {
+    transform: translateY(3px) scaleY(0.9);
+
+    background-color: hsl(250, 75%, 5%);
+    color: whitesmoke;
+
+    border-radius: 18px;
+
+    box-shadow: 0 3px 9px 0 hsla(250, 75%, 55%, 0.18);
+
+    font-size: 1.5em;
+
+    padding: 0.5em;
+    margin-left: 1.5px;
+}
