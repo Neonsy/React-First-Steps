@@ -48,3 +48,8 @@
 .deleteButton:active {
     transform: translateY(3px) scaleY(0.9);
 }
+
+.completed {
+    color: hsla(0, 0%, 96%, 0.3);
+    text-decoration: line-through;
+}
