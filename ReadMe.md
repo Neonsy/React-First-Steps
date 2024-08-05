@@ -61,6 +61,7 @@ The following represents the sections / steps, that I've taken through this proj
 -   [Input Fields In React](/notes/18-input-fields-in-react.md)
 -   [Multiple Inputs](/notes/19-multiple-inputs.md)
 -   [Form Submission](/notes/20-form-submission.md)
+-   [Use Effect Hook](/notes/21-use-effect-hook.md)
 
 
 ### [Todo Project](/notes/project-01-todo-app.md)
