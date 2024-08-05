@@ -72,6 +72,9 @@ I'm aware that that's a classic trope, but I think for learning important concep
 
 If I decide to do another project (in this repository), seeing that `main` is the latest version of the repository, you can find the code for the todo project in the [projects branch](../../tree/Project-01-Todo-App/).
 
+>[!NOTE]
+> As I'm going to continue with NextJS, I won't be reworking the todo project in this repository, so that I can focus on learning the NextThing (**Pun 2.0**).
+
 #### Images
 
 ##### Start

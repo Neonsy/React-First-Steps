@@ -1,27 +1,28 @@
-import { useReducer } from 'react';
+import { useEffect, useRef } from 'react';
 
 export default function App() {
-    const [count, dispatch] = useReducer(countReducer, 0);
+    const inputRef = useRef();
+    const countRef = useRef(0);
 
-    function countReducer(state, action) {
-        switch (action.type) {
-            case 'increment':
-                return state + 1;
-            case 'decrement':
-                return state - 1;
-            case 'reset':
-                return 0;
-            default:
-                return state;
-        }
+    function handleFocus() {
+        inputRef.current.focus();
+    }
+
+    useEffect(() => {
+        console.log(inputRef.current);
+    }, []);
+
+    function count() {
+        countRef.current++;
+        console.log(countRef.current);
     }
 
     return (
         <>
-            <h1>Counter: {count}</h1>
-            <button onClick={() => dispatch({ type: 'increment' })}>+</button>
-            <button onClick={() => dispatch({ type: 'decrement' })}>-</button>
-            <button onClick={() => dispatch({ type: 'reset' })}>Reset</button>
+            <h1>App</h1>
+            <input type='text' ref={inputRef} />
+            <button onClick={handleFocus}>Focus</button>
+            <button onClick={count}>Increment count (log)</button>
         </>
     );
 }
