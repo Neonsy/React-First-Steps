@@ -9,11 +9,6 @@ This repository contains my learnings steps, as I venture into React.
 Branches are named after the chapter they are for, and will contain the code for that chapter.
 The `main` branch will contain the full code, added linearly from all the branches.
 
-> [!NOTE]
-> This repository is under active development, as I've currently set out to learn React.
->
-> I'll be adding more content as I go along.
-
 While I do want to learn ReactQuery, ReactRouter, NextJS and TypeScript, I'm not going to be using them in this repository.
 I'll be solely using React, in correlation with Vite.
 
@@ -64,7 +59,6 @@ The following represents the sections / steps, that I've taken through this proj
 -   [Use Effect Hook](/notes/21-use-effect-hook.md)
 -   [**`Hooks In React`**](/notes/22-hooks-in-react/)
 
-
 ### [Todo Project](/notes/project-01-todo-app.md)
 
 Now hold on for a second before you judge me for doing a todo project.
@@ -72,7 +66,7 @@ I'm aware that that's a classic trope, but I think for learning important concep
 
 If I decide to do another project (in this repository), seeing that `main` is the latest version of the repository, you can find the code for the todo project in the [projects branch](../../tree/Project-01-Todo-App/).
 
->[!NOTE]
+> [!NOTE]
 > As I'm going to continue with NextJS, I won't be reworking the todo project in this repository, so that I can focus on learning the NextThing (**Pun 2.0**).
 >
 > But yeah, I now know of prop drilling vs useContext and avoiding useEffect 😃😆
