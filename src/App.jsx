@@ -1,28 +1,18 @@
-import { useEffect, useRef } from 'react';
+import { useState, useMemo } from 'react';
 
 export default function App() {
-    const inputRef = useRef();
-    const countRef = useRef(0);
+    const [count, setCount] = useState(0);
 
-    function handleFocus() {
-        inputRef.current.focus();
-    }
+    const expansiveCalc = () => {
+        return Math.random() * 100;
+    };
 
-    useEffect(() => {
-        console.log(inputRef.current);
-    }, []);
-
-    function count() {
-        countRef.current++;
-        console.log(countRef.current);
-    }
+    const expensiveValue = useMemo(() => expansiveCalc(), [count]);
 
     return (
         <>
-            <h1>App</h1>
-            <input type='text' ref={inputRef} />
-            <button onClick={handleFocus}>Focus</button>
-            <button onClick={count}>Increment count (log)</button>
+            <p onClick={() => setCount(count + 1)}>Count: {count}</p>
+            <p>Expensive Value: {expensiveValue}</p>
         </>
     );
 }

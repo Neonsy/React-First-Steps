@@ -74,6 +74,8 @@ If I decide to do another project (in this repository), seeing that `main` is th
 
 >[!NOTE]
 > As I'm going to continue with NextJS, I won't be reworking the todo project in this repository, so that I can focus on learning the NextThing (**Pun 2.0**).
+>
+> But yeah, I now know of prop drilling vs useContext and avoiding useEffect 😃😆
 
 #### Images
 
